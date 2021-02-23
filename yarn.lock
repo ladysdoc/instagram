@@ -1315,9 +1315,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ladysdoc/instagram-profile@workspace:packages/profile":
+"@ladysdoc/instagram-profile@workspace:packages/instagram-profile":
   version: 0.0.0-use.local
-  resolution: "@ladysdoc/instagram-profile@workspace:packages/profile"
+  resolution: "@ladysdoc/instagram-profile@workspace:packages/instagram-profile"
   dependencies:
     "@emotion/react": ^11.1.5
     "@ladysdoc/build-system": "*"

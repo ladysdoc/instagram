@@ -59,7 +59,7 @@ export const ProfilePage: FC = () => (
                         >
                             <div className="title">ЛИЧНЫЙ САЙТ</div>
                             <div className="subtitle">
-                                ОО МНЕ И МОЕМ ПОДХОДЕ
+                                ОБО МНЕ И МОЕМ ПОДХОДЕ
                             </div>
                         </a>
                     </div>

@@ -1,0 +1,7 @@
+{
+  "name": "@ladysdoc/error-handler",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "src/index"
+}

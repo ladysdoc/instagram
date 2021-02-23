@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "jsxFactory": "jsx",
+        "strictFunctionTypes": true
+    },
+    "extends": "../../../tsconfig.web",
+    "include": ["."],
+    "filesGlob": ["**/*.ts", "**/*.tsx"]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@ladysdoc/instagram-profile",
+  "version": "0.0.0",
+  "description": "Instagram profile page",
+  "main": "./src/index",
+  "author": "Andrei Koperskii",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start:profile": "webpack-dev-server",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.1.5",
+    "emotion-normalize": "^11.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@ladysdoc/build-system": "*",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/typescript-helpers": "*",
+    "webpack": "^5.22.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

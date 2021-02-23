@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "module": "esnext",
+        "sourceMap": true,
+        "target": "es5"
+    }
+}

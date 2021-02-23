@@ -1,0 +1,51 @@
+{
+  "name": "@ladysdoc/build-system",
+  "version": "0.0.0",
+  "description": "Build system on webpack and module federation",
+  "main": "src/index",
+  "license": "UNLICENSED",
+  "sideEffects": false,
+  "devDependencies": {
+    "@babel/preset-env": "7.12.16",
+    "@types/case-sensitive-paths-webpack-plugin": "^2.1.4",
+    "@types/copy-webpack-plugin": "^6.4.0",
+    "@types/html-webpack-plugin": "3.2.4",
+    "@types/terser-webpack-plugin": "^5.0.2",
+    "@types/unused-files-webpack-plugin": "^3.4.1",
+    "@types/webpack-blocks__babel": "2.0.1",
+    "@types/webpack-blocks__webpack": "^2.0.1",
+    "@types/webpack-bundle-analyzer": "^3.9.0",
+    "@types/webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "@ladysdoc/proxy-middleware": "*",
+    "@webcomponents/webcomponentsjs": "2.5.0",
+    "@webpack-blocks/babel": "2.1.0",
+    "@webpack-blocks/webpack": "2.1.0",
+    "babel-core": "6.26.3",
+    "case-sensitive-paths-webpack-plugin": "^2.3.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "es6-promise": "4.2.8",
+    "html-webpack-plugin": "5.1.0",
+    "polyfill-array-includes": "2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "~4.1.5",
+    "webpack": "^5.22.0",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "browserslist": "ie11",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "ie": "11"
+        }
+      }
+    ]
+  }
+}

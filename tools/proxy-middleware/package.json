@@ -1,0 +1,16 @@
+{
+  "name": "@ladysdoc/proxy-middleware",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "src/index",
+  "dependencies": {
+    "@ladysdoc/error-handler": "*",
+    "@types/lodash.debounce": "4.0.6",
+    "@types/react-highlight-words": "0.16.1",
+    "compose-middleware": "^5.0.1",
+    "http-proxy-middleware": "1.0.6",
+    "lodash.debounce": "4.0.8",
+    "react-highlight-words": "0.17.0"
+  }
+}

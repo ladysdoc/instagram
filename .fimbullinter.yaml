@@ -1,0 +1,12 @@
+modules:
+    - '@fimbul/heimdall'
+files:
+    - '**/*.{ts,tsx}'
+project:
+    - packages/profile
+    - packages/profile/src
+    - tools/build-system
+    - tools/error-handler
+    - tools/proxy-middleware
+    - types/typescript-helpers
+reportUselessDirectives: error

@@ -1,0 +1,7 @@
+{
+    "extends": "../../tsconfig.node",
+    "files": ["webpack.config.ts"],
+    "ts-node": {
+        "transpileOnly": true
+    }
+}

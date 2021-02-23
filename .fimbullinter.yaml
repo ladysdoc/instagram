@@ -3,8 +3,8 @@ modules:
 files:
     - '**/*.{ts,tsx}'
 project:
-    - packages/instagram-profile
-    - packages/instagram-profile/src
+    - packages/profile
+    - packages/profile/src
     - tools/build-system
     - tools/error-handler
     - tools/proxy-middleware

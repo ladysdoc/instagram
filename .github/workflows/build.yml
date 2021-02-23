@@ -15,11 +15,15 @@ jobs:
                   node-version: '12.x'
             - name: Install dependencies
               run: yarn
+            - name: Lint
+              run: yarn lint
             - name: Build packages
               run: yarn workspaces foreach --include @ladysdoc/instagram-* --exclude root -pv run build
             - name: Collect results
               run: yarn workspaces foreach --include @ladysdoc/instagram-* --exclude root -pv run publish
               env:
                   PUBLIC_PATH: ../../docs
-            - name: Check
-              run: 'ls -la dist'
+            - name: Commit & Push changes
+              uses: actions-js/push@master
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}

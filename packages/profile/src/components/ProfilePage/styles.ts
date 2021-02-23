@@ -57,6 +57,7 @@ export default css({
     '.go-back': {
         alignItems: 'center',
         borderBottom: 'solid 1px',
+        background: theme.palette.cream.main,
         borderBottomColor: theme.palette.grey[20],
         display: 'flex',
         height: 44,
@@ -64,6 +65,7 @@ export default css({
         position: 'fixed',
         right: 0,
         top: 0,
+        zIndex: 1,
 
         '& .link': {
             background:

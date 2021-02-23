@@ -21,9 +21,6 @@ jobs:
               run: yarn workspaces foreach --include @ladysdoc/instagram-* --exclude root -pv run build
             - name: Collect results
               run: yarn workspaces foreach --include @ladysdoc/instagram-* --exclude root -pv run publish
-              env:
-                  NODE_ENV: 'production'
-                  PUBLIC_PATH: ../../docs/
             - name: Commit & Push changes
               uses: actions-js/push@master
               with:

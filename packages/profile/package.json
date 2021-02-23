@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "publish": "cp -r dist/ ${PUBLIC_PATH}/$(env |grep PWD| grep -o '[^/]*$')/",
+    "publish": "cp -r dist/*.* ${PUBLIC_PATH}/$(env |grep PWD| grep -o '[^/]*$')/",
     "start:profile": "webpack-dev-server",
     "test": "jest"
   },

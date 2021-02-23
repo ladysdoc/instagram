@@ -5,13 +5,11 @@ export default css({
         scrollBehavior: 'smooth',
         minHeight: '100%',
     },
-    '.visibility-hidden': {
-        position: 'absolute',
-        clip: 'rect(1px, 1px, 1px, 1px)',
-        padding: '0!important',
-        border: '0!important',
-        height: '1px!important',
-        width: '1px!important',
-        overflow: 'hidden',
+    body: {
+        fontFamily: 'Roboto, sans-serif',
+        fontSize: '8px',
+        fontWeight: 400,
+        lineHeight: '1.5',
+        '-webkit-font-smoothing': 'antialiased',
     },
 });
